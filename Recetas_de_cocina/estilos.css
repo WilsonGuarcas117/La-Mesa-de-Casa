@@ -1,0 +1,30 @@
+.imagenes_receta{ /*Efectos para la imagen*/
+    width: 400px;
+    height: 275px;
+    box-shadow: 5px 10px 15px rgb(0, 0, 0, 0.70);
+    border-radius: 10%;
+}
+
+.notas_receta{ /*Separación entre lineas*/
+    line-height: 0.25;
+}
+
+body{  /*Agrega un margen dentro de la pagina*/
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+hr {/*Agrega estilos a la linea devisoría*/
+    border-top: 2px solid rgb(226, 158, 10) ;
+    margin: 35px 0;
+}
+
+h1 {/*Centra el título principal*/
+    text-align: center;
+}
+
+.descripcion { /*Justifica los parrafos de descripción*/
+    text-align: justify;
+}
